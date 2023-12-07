@@ -34,3 +34,11 @@
   - 여기서 origin 은 원격 저장소의 이름 ( origin은 기본이름, 설정 가능 ) 
 - git pull origin "브랜치명"
   - 반대로 원격 저장소의 버전을 받아올 때 사용하는 명령어 
+
+#### 5. 협업에서 버전 맞추기
+
+- git pull origin dev
+  - 먼저 dev (약속 된 개발 버전) 파일 위치에서 git pull origin dev
+- git merge dev
+  - 내가 작업 중인 브랜치로 이동해서 git merge dev 
+  - 이 때 다른 사람이 작업한 내용이 내 브랜치에 적용되면서 버전 일치 
